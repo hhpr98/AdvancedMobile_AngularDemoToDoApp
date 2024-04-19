@@ -7,7 +7,7 @@ import { Task } from './app.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'test3';
+  title = 'advanced-web-angular-demo-todo-app';
   sizeTask = 10;
   taskToAdd = '';
   taskToFilter = '';
