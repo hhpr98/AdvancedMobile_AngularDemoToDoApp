@@ -1,13 +1,12 @@
-import {Component, OnInit} from '@angular/core';
-import {Task} from './app.model';
-import {compareNumbers} from '@angular/compiler-cli/src/diagnostics/typescript_version';
+import { Component, OnInit } from '@angular/core';
+import { Task } from './app.model';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   title = 'test3';
   sizeTask = 10;
   taskToAdd = '';
@@ -46,7 +45,8 @@ export class AppComponent implements OnInit{
         // window.alert('tmp = ' + tmp);
         tmp === true ? item.isActive = false : item.isActive = true;
         return;
-      }});
+      }
+    });
 
   }
 
