@@ -122,7 +122,6 @@
       }
     }
   },
-  "defaultProject": "advanced-web-angular-demo-todo-app",
   "cli": {
     "analytics": "926a1d52-ebe2-4735-a6a9-fd64ebe900bf"
   }
